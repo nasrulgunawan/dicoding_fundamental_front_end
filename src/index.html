@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APIK.ID - Aplikasi Pusat Informasi Korona Indonesia</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-body">
+      <h2 class="title">Apik.ID</h2>
+    </div>
+    <apik-navbar></apik-navbar>
+  </header>
+  <main>
+    <div class="row" id="home">
+      <div class="col-12">
+        <div class="banner container">
+          <div class="banner-text">
+            <h1>APIK.ID</h1>
+            <h2>Aplikasi Pusat Informasi Korona Indonesia</h2>
+            <p>Merupakan aplikasi yang digunakan sebagai pusat informasi terkait virus korona yang ada di Indonesia.</p>
+            <button type="button" class="btn btn-primary">Hotline: 199</button>
+            <div class="download-app">
+              <p>Available on:</p>
+              <img id="playstore-img" alt="Play Store">
+              <img id="appstore-img" alt="App Store">
+            </div>
+          </div>
+          <img id="header-img" class="banner-img" alt="Ilustrasi">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="information container">
+          <div class="card card-margin-less">
+            <div class="card-body">
+              <div class="card-title text-center">Update penyebaran Corona di Indonesia</div>
+              <div class="card-content">
+                <div class="card-box" id="covid-data">
+                  <div class="box box-red text-center box-shadow">
+                    <div id="covid-positive" class="box-title">
+                      <div class="loader"></div>
+                    </div>
+                    <p class="box-subtitle">Pasien terkonfirmasi positif</p>
+                  </div>
+                  <div class="box box-green text-center box-shadow">
+                    <div id="covid-recovered" class="box-title">
+                      <div class="loader"></div>
+                    </div>
+                    <p class="box-subtitle">Pasien sembuh</p>
+                  </div>
+                  <div class="box box-yellow text-center box-shadow">
+                    <div id="covid-deaths" class="box-title">
+                      <div class="loader"></div>
+                    </div>
+                    <p class="box-subtitle">Pasien meninggal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container" id="berita-nasional">
+      <div class="post-header">
+        <h1>Berita Nasional</h1>
+      </div>
+      <div class="content col-sm-12 col-12">
+        <div class="post" id="articles">
+          <div class="loader"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="peta-penyebaran">
+      <div class="col-12">
+        <div class="maps">
+          <h2>Peta persebaran virus corona di Indonesia</h2>
+          <p>Peta ini merupakan peta persebaran virus corona yang selalu diupdate oleh website resmi pusat informasi
+            corona Negara Indonesia www.covid19.go.id</p>
+          <img id="maps-img" alt="Peta Persebaran">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2020 <a href="https://www.dicoding.com/users/14384" target="_blank">Nasrul Gunawan</a></p>
+  </footer>
+</body>
+
+</html>

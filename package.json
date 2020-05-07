@@ -1,0 +1,41 @@
+{
+  "name": "apik.id",
+  "version": "1.0.0",
+  "description": "Aplikasi Pusat Informasi Korona Indonesia",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasrulgunawan/apik.id.git"
+  },
+  "keywords": [
+    "pusat informasi",
+    "corona",
+    "indonesia"
+  ],
+  "author": "Nasrul Gunawan <nasrul.remaza@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasrulgunawan/apik.id/issues"
+  },
+  "homepage": "https://github.com/nasrulgunawan/apik.id#readme",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.1.4",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}
