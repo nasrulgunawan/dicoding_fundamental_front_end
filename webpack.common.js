@@ -1,4 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const {
+  CleanWebpackPlugin
+} = require('clean-webpack-plugin');
 const path = require("path");
 
 module.exports = {
@@ -16,14 +19,6 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-          outputPath: 'fonts/'
-        }
-      },
-      {
         test: /\.(png|jpg|gif|svg)$/i,
         loader: 'file-loader',
         options: {
@@ -37,6 +32,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       filename: "index.html"
-    })
+    }),
+    new CleanWebpackPlugin()
   ]
 };

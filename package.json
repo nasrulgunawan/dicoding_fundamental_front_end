@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nasrulgunawan/apik.id.git"
+    "url": "https://github.com/nasrulgunawan/dicoding_fundamental_front_end.git"
   },
   "keywords": [
     "pusat informasi",
@@ -19,20 +19,21 @@
   "author": "Nasrul Gunawan <nasrul.remaza@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nasrulgunawan/apik.id/issues"
+    "url": "https://github.com/nasrulgunawan/dicoding_fundamental_front_end/issues"
   },
-  "homepage": "https://github.com/nasrulgunawan/apik.id#readme",
+  "homepage": "https://github.com/nasrulgunawan/dicoding_fundamental_front_end#readme",
   "dependencies": {
-    "jquery": "^3.5.0",
     "regenerator-runtime": "^0.13.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.2",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.2.0",
     "style-loader": "^1.1.4",
-    "url-loader": "^4.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
